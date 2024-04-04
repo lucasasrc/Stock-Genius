@@ -2,6 +2,7 @@
   <Version>1.0</Version>
   <FileID>5dba09ef-15b3-4b4c-9d5b-81c53a763c28</FileID>
   <OpenFolders>
+    <Folder>templates</Folder>
     <Folder>Forms</Folder>
     <Folder>Forms\Cadastros</Folder>
     <Folder>Forms\Paineis</Folder>

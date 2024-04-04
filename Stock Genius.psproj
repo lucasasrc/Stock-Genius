@@ -32,5 +32,7 @@
     <File Build="0" ReferenceFunction="Show-CadastroProdutos_psf">Forms\Cadastros\CadastroProdutos.psf</File>
     <File Build="0" ReferenceFunction="Show-CategoriaProduto_psf">Forms\Cadastros\CategoriaProduto.psf</File>
     <File Build="2">SQL\Criacao.sql</File>
+    <File Build="2">templates\RecuperarUsuario.html</File>
+    <File Build="2">templates\RecuperarSenha.html</File>
   </Files>
 </Project>
