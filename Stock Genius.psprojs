@@ -3,6 +3,14 @@
   <FileID>5dba09ef-15b3-4b4c-9d5b-81c53a763c28</FileID>
   <OpenFolders>
     <Folder>Forms</Folder>
+    <Folder>Forms\Cadastros</Folder>
+    <Folder>Forms\Paineis</Folder>
+    <Folder>Forms\Login</Folder>
   </OpenFolders>
-  <OpenFiles />
+  <OpenFiles>
+    <File>Forms\Cadastros\CadastroProdutos.psf</File>
+    <File>MainForm.psf</File>
+    <File>Forms\Login\RecuperarSenha.psf</File>
+    <File>Forms\Paineis\PainelAdmin.psf</File>
+  </OpenFiles>
 </ProjectState>
