@@ -8,23 +8,27 @@
     <Folder>img</Folder>
     <Folder>templates</Folder>
     <Folder>dll</Folder>
+    <Folder>Forms</Folder>
+    <Folder>Forms\Cadastros</Folder>
+    <Folder>Forms\Paineis</Folder>
+    <Folder>Forms\Login</Folder>
   </Folders>
   <Files>
     <File Build="0">Startup.pss</File>
     <File Build="0" ReferenceFunction="Show-MainForm_psf">MainForm.psf</File>
     <File Build="0" Shared="True" ReferenceFunction="Invoke-Global_ps1">Globals.ps1</File>
-    <File Build="0" ReferenceFunction="Show-PainelAdmin_psf">PainelAdmin.psf</File>
-    <File Build="0" ReferenceFunction="Show-MFA_psf">MFA.psf</File>
+    <File Build="0" ReferenceFunction="Show-PainelAdmin_psf">Forms\Paineis\PainelAdmin.psf</File>
+    <File Build="0" ReferenceFunction="Show-MFA_psf">Forms\Login\MFA.psf</File>
     <File Build="2">img\genius.ico</File>
     <File Build="2">img\genius.png</File>
     <File Build="2">img\stock genius big.png</File>
     <File Build="2">img\stock genius MFA.png</File>
     <File Build="2">templates\MFA.html</File>
-    <File Build="0" ReferenceFunction="Show-FiltroUsuarios_psf">FiltroUsuarios.psf</File>
-    <File Build="0" ReferenceFunction="Show-CadastroUsuarios_psf">CadastroUsuarios.psf</File>
-    <File Build="0" ReferenceFunction="Show-RecuperarSenha_psf">RecuperarSenha.psf</File>
-    <File Build="0" ReferenceFunction="Show-PainelOperador_psf">PainelOperador.psf</File>
-    <File Build="0" ReferenceFunction="Show-CadastroProdutos_psf">CadastroProdutos.psf</File>
-    <File Build="0" ReferenceFunction="Show-CategoriaProduto_psf">CategoriaProduto.psf</File>
+    <File Build="0" ReferenceFunction="Show-FiltroUsuarios_psf">Forms\FiltroUsuarios.psf</File>
+    <File Build="0" ReferenceFunction="Show-CadastroUsuarios_psf">Forms\Cadastros\CadastroUsuarios.psf</File>
+    <File Build="0" ReferenceFunction="Show-RecuperarSenha_psf">Forms\Login\RecuperarSenha.psf</File>
+    <File Build="0" ReferenceFunction="Show-PainelOperador_psf">Forms\Paineis\PainelOperador.psf</File>
+    <File Build="0" ReferenceFunction="Show-CadastroProdutos_psf">Forms\Cadastros\CadastroProdutos.psf</File>
+    <File Build="0" ReferenceFunction="Show-CategoriaProduto_psf">Forms\Cadastros\CategoriaProduto.psf</File>
   </Files>
 </Project>
