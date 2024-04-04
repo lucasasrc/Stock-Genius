@@ -1,13 +1,8 @@
 ﻿<ProjectState>
   <Version>1.0</Version>
   <FileID>5dba09ef-15b3-4b4c-9d5b-81c53a763c28</FileID>
-  <OpenFolders />
-  <OpenFiles>
-    <File>Globals.ps1</File>
-    <File>MainForm.psf</File>
-    <File>PainelOperador.psf</File>
-    <File>PainelAdmin.psf</File>
-    <File>CadastroProdutos.psf</File>
-    <File>CategoriaProduto.psf</File>
-  </OpenFiles>
+  <OpenFolders>
+    <Folder>Forms</Folder>
+  </OpenFolders>
+  <OpenFiles />
 </ProjectState>
