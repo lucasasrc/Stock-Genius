@@ -13,5 +13,7 @@
     <File>MainForm.psf</File>
     <File>Forms\Login\RecuperarSenha.psf</File>
     <File>Forms\Paineis\PainelAdmin.psf</File>
+    <File>Forms\Login\MFA.psf</File>
+    <File>Globals.ps1</File>
   </OpenFiles>
 </ProjectState>
