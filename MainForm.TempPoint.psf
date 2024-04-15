@@ -2417,6 +2417,6 @@ $buttonMostrarSenhaLogin_Click={
 	}
 }
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies />
 </File>

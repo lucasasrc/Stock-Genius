@@ -1369,20 +1369,15 @@ $formValidarMFA_Load={
 
 $buttonOKMFA_Click={
 	$codigoMFA = $mfaBox.Text
-	
+	$formValidarMFA.DialogResult = [System.Windows.Forms.DialogResult]::OK
 	if ($codigoMFA -eq $mfaCode)
 	{
 		
 		Write-Host "O código MFA é válido"
+		$status = "OK"
 		$statusMFA = $status
 		Write-Host $statusMFA
-		$formValidarMFA.DialogResult = [System.Windows.Forms.DialogResult]::OK
 	}
-	else
-	{
-		[System.Windows.Forms.MessageBox]::Show("Código inválido! Insira novamente.", "Aviso", "OK", "Warning")
-	}
-	
 }
 
 
@@ -1390,6 +1385,6 @@ $buttonCancelarMFA_Click={
 	$formValidarMFA.DialogResult = [System.Windows.Forms.DialogResult]::Cancel
 }
 ]]></Code>
-  <Mode>1</Mode>
+  <Mode>0</Mode>
   <Assemblies />
 </File>
