@@ -30,7 +30,8 @@ function Main {
 	#	
 	#}
 	
-	Show-MainForm_psf
+	#Show-ListarUsuarios_psf
+	Show-CadastroProdutos_psf
 	
 	$script:ExitCode = 0 #Set the exit code for the Packager
 }

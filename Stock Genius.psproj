@@ -7,12 +7,13 @@
   <Folders>
     <Folder>img</Folder>
     <Folder>templates</Folder>
-    <Folder>dll</Folder>
+    <Folder>imports</Folder>
     <Folder>Forms</Folder>
     <Folder>Forms\Cadastros</Folder>
     <Folder>Forms\Paineis</Folder>
     <Folder>Forms\Login</Folder>
     <Folder>SQL</Folder>
+    <Folder>Forms\Filtros</Folder>
   </Folders>
   <Files>
     <File Build="0">Startup.pss</File>
@@ -25,7 +26,7 @@
     <File Build="2">img\stock genius big.png</File>
     <File Build="2">img\stock genius MFA.png</File>
     <File Build="2">templates\MFA.html</File>
-    <File Build="0" ReferenceFunction="Show-FiltroUsuarios_psf">Forms\FiltroUsuarios.psf</File>
+    <File Build="0" ReferenceFunction="Show-FiltroUsuarios_psf">Forms\Filtros\FiltroUsuarios.psf</File>
     <File Build="0" ReferenceFunction="Show-CadastroUsuarios_psf">Forms\Cadastros\CadastroUsuarios.psf</File>
     <File Build="0" ReferenceFunction="Show-RecuperarSenha_psf">Forms\Login\RecuperarSenha.psf</File>
     <File Build="0" ReferenceFunction="Show-PainelOperador_psf">Forms\Paineis\PainelOperador.psf</File>
@@ -34,5 +35,7 @@
     <File Build="2">SQL\Criacao.sql</File>
     <File Build="2">templates\RecuperarUsuario.html</File>
     <File Build="2">templates\RecuperarSenha.html</File>
+    <File Build="0" ReferenceFunction="Show-ListarUsuarios_psf">Forms\Filtros\ListarUsuarios.psf</File>
+    <File Build="0" ReferenceFunction="Show-AlterarUsuario_psf">Forms\Cadastros\AlterarUsuario.psf</File>
   </Files>
 </Project>
