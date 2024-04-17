@@ -30,8 +30,33 @@ function Main {
 	#	
 	#}
 	
-	#Show-ListarUsuarios_psf
-	Show-CadastroProdutos_psf
+	Show-ListarUsuarios_psf
+	
+	$connection.Open()
+	
+	# Preparar a query SQL
+	$query = "SELECT COUNT(*) FROM Usuarios"
+	
+	# Criar o comando
+	$command = New-Object MySql.Data.MySqlClient.MySqlCommand($query, $connection)
+	
+	# Executar o comando e obter o resultado
+	$result = $command.ExecuteScalar()
+	
+	# Fechar a conexão
+	$connection.Close()
+	
+	# Verificar se a tabela está vazia
+	if ($result -eq 0)
+	{
+		Show-CadastroAdmin_psf
+	}
+	else
+	{
+		Show-MainForm_psf
+	}
+	
+	
 	
 	$script:ExitCode = 0 #Set the exit code for the Packager
 }

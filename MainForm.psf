@@ -2288,7 +2288,7 @@ $buttonLogin_Click={
 				$usuario = $reader["usuario"].ToString()
 				$senha = $reader["senha"].ToString()
 				$emailDestinatario = $reader["email"].ToString()
-				$tipo = $reader["tipo"].ToString()
+				$tipo = $reader["tipo_id"].ToString()
 			}
 		}
 		else
@@ -2417,6 +2417,6 @@ $buttonMostrarSenhaLogin_Click={
 	}
 }
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies />
 </File>

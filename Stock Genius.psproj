@@ -37,5 +37,6 @@
     <File Build="2">templates\RecuperarSenha.html</File>
     <File Build="0" ReferenceFunction="Show-ListarUsuarios_psf">Forms\Filtros\ListarUsuarios.psf</File>
     <File Build="0" ReferenceFunction="Show-AlterarUsuario_psf">Forms\Cadastros\AlterarUsuario.psf</File>
+    <File Build="0" ReferenceFunction="Show-CadastroAdmin_psf">Forms\Cadastros\CadastroAdmin.psf</File>
   </Files>
 </Project>
