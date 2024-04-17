@@ -7,13 +7,13 @@
     <Folder>Forms\Cadastros</Folder>
     <Folder>Forms\Paineis</Folder>
     <Folder>Forms\Login</Folder>
+    <Folder>Forms\Filtros</Folder>
   </OpenFolders>
   <OpenFiles>
-    <File>Forms\Cadastros\CadastroProdutos.psf</File>
-    <File>MainForm.psf</File>
-    <File>Forms\Login\RecuperarSenha.psf</File>
-    <File>Forms\Paineis\PainelAdmin.psf</File>
-    <File>Forms\Login\MFA.psf</File>
+    <File>Startup.pss</File>
     <File>Globals.ps1</File>
+    <File>Forms\Filtros\ListarUsuarios.psf</File>
+    <File>Forms\Cadastros\AlterarUsuario.psf</File>
+    <File>MainForm.psf</File>
   </OpenFiles>
 </ProjectState>
