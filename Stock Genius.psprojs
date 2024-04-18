@@ -8,12 +8,11 @@
     <Folder>Forms\Paineis</Folder>
     <Folder>Forms\Login</Folder>
     <Folder>Forms\Filtros</Folder>
+    <Folder>Forms\Alteracoes</Folder>
   </OpenFolders>
   <OpenFiles>
     <File>Startup.pss</File>
     <File>MainForm.psf</File>
     <File>Globals.ps1</File>
-    <File>Forms\Cadastros\CadastroProdutos.psf</File>
-    <File>Forms\Filtros\ListarProdutos.psf</File>
   </OpenFiles>
 </ProjectState>

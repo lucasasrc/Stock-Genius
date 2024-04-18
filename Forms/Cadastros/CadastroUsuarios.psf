@@ -2103,6 +2103,8 @@ $buttonCadastrarUsuário_Click = {
 					
 					$command.ExecuteNonQuery()
 					[System.Windows.Forms.MessageBox]::Show("Usuário cadastrado com sucesso.", "Cadastro Concluído", "OK", "Information")
+					$formCriarUsuario.Close()
+					$formCriarUsuario.Dispose()
 				}
 			}
 			catch
@@ -2123,10 +2125,16 @@ $buttonCadastrarUsuário_Click = {
 }
 
 
-$labelLogoutCadUser_Click={
-	$formCriarUsuario.Close()
-	$formCriarUsuario.Dispose()
-	Show-MainForm_psf
+$labelLogout_Click = {
+	$labelLogout_Click = {
+		$result = [System.Windows.Forms.MessageBox]::Show("Você realmente deseja sair?", "Logout", [System.Windows.Forms.MessageBoxButtons]::YesNo, [System.Windows.Forms.MessageBoxIcon]::Question)
+		if ($result -eq 'Yes')
+		{
+			$formCriarUsuario.Close()
+			$formCriarUsuario.Dispose()
+			Show-MainForm_psf
+		}
+	}
 }
 ]]></Code>
   <Mode>1</Mode>

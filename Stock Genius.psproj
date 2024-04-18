@@ -14,6 +14,7 @@
     <Folder>Forms\Login</Folder>
     <Folder>SQL</Folder>
     <Folder>Forms\Filtros</Folder>
+    <Folder>Forms\Alteracoes</Folder>
   </Folders>
   <Files>
     <File Build="0">Startup.pss</File>
@@ -36,9 +37,10 @@
     <File Build="2">templates\RecuperarUsuario.html</File>
     <File Build="2">templates\RecuperarSenha.html</File>
     <File Build="0" ReferenceFunction="Show-ListarUsuarios_psf">Forms\Filtros\ListarUsuarios.psf</File>
-    <File Build="0" ReferenceFunction="Show-AlterarUsuario_psf">Forms\Cadastros\AlterarUsuario.psf</File>
+    <File Build="0" ReferenceFunction="Show-AlterarUsuario_psf">Forms\Alteracoes\AlterarUsuario.psf</File>
     <File Build="0" ReferenceFunction="Show-CadastroAdmin_psf">Forms\Cadastros\CadastroAdmin.psf</File>
     <File Build="0" ReferenceFunction="Show-ListarProdutos_psf">Forms\Filtros\ListarProdutos.psf</File>
-    <File Build="0" ReferenceFunction="Show-AlterarProduto_psf">Forms\Cadastros\AlterarProduto.psf</File>
+    <File Build="0" ReferenceFunction="Show-AlterarProduto_psf">Forms\Alteracoes\AlterarProduto.psf</File>
+    <File Build="0" ReferenceFunction="Show-AlterarSenha_psf">Forms\Alteracoes\AlterarSenha.psf</File>
   </Files>
 </Project>
