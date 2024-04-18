@@ -29,7 +29,6 @@ function Main {
 	#{
 	#	
 	#}
-	Show-CadastroProdutos_psf
 	Show-ListarProdutos_psf
 	$connection.Open()
 	

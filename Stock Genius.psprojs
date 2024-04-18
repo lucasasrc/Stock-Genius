@@ -11,10 +11,9 @@
   </OpenFolders>
   <OpenFiles>
     <File>Startup.pss</File>
-    <File>Globals.ps1</File>
     <File>MainForm.psf</File>
+    <File>Globals.ps1</File>
     <File>Forms\Cadastros\CadastroProdutos.psf</File>
     <File>Forms\Filtros\ListarProdutos.psf</File>
-    <File>Forms\Filtros\ListarUsuarios.psf</File>
   </OpenFiles>
 </ProjectState>
