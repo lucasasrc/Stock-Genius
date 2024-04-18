@@ -29,9 +29,8 @@ function Main {
 	#{
 	#	
 	#}
-	
-	Show-ListarUsuarios_psf
-	
+	Show-CadastroProdutos_psf
+	Show-ListarProdutos_psf
 	$connection.Open()
 	
 	# Preparar a query SQL
