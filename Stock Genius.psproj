@@ -39,5 +39,6 @@
     <File Build="0" ReferenceFunction="Show-AlterarUsuario_psf">Forms\Cadastros\AlterarUsuario.psf</File>
     <File Build="0" ReferenceFunction="Show-CadastroAdmin_psf">Forms\Cadastros\CadastroAdmin.psf</File>
     <File Build="0" ReferenceFunction="Show-ListarProdutos_psf">Forms\Filtros\ListarProdutos.psf</File>
+    <File Build="0" ReferenceFunction="Show-AlterarProduto_psf">Forms\Cadastros\AlterarProduto.psf</File>
   </Files>
 </Project>

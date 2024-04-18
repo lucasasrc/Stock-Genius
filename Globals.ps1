@@ -6,11 +6,20 @@
 $mfaCode = ''
 $usuarioAutenticado = ''
 
+#Variáveis de atualização de usuário
 $idListada = ''
 $usuarioListado = ''
 $nomeListado = ''
 $emailListado = ''
 $tipoListado = ''
+
+#Variáveis de atualização de produto
+$idListadaProd = ''
+$nomeListadoProd = ''
+$descListadoProd = ''
+$catListadoProd = ''
+$fornListadoProd = ''
+$armListadoProd = ''
 
 #Configurações de acesso ao banco de dados
 Add-Type -Path "C:\Program Files (x86)\MySQL\MySQL Connector NET 8.3.0\MySql.Data.dll"
