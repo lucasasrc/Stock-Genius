@@ -2028,7 +2028,7 @@ $buttonCadastrarAdmin_Click = {
 	{
 		Write-Host "A senha não atende aos requisitos mínimos."
 		$camposValidos = $false
-		[System.Windows.Forms.MessageBox]::Show("A senha não atende aos requisitos mínimos.`nDeve ter no mínimo:`n- 8 Caracteres`n1 Letra maiúscula`n1Letra Minúscula`n1 Caractere especial", "Erro de Validação", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+		[System.Windows.Forms.MessageBox]::Show("A senha não atende aos requisitos mínimos.`nDeve ter no mínimo:`n- 8 Caracteres`n- 1 Letra maiúscula`n- 1 Letra Minúscula`n- 1 Caractere especial", "Erro de Validação", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
 	}
 	
 	# Validar se o formato do e-mail está correto.
