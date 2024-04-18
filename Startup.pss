@@ -29,7 +29,7 @@ function Main {
 	#{
 	#	
 	#}
-	Show-ListarProdutos_psf
+	
 	$connection.Open()
 	
 	# Preparar a query SQL

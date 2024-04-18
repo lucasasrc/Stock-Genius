@@ -2174,10 +2174,16 @@ $buttonAtualizarProduto_Click = {
 
 
 
-$labelLogout_Click={
-	$formAlterarProduto.Close()
-	$formAlterarProduto.Dispose()
-	Show-MainForm_psf
+$labelLogout_Click = {
+	$labelLogout_Click = {
+		$result = [System.Windows.Forms.MessageBox]::Show("Você realmente deseja sair?", "Logout", [System.Windows.Forms.MessageBoxButtons]::YesNo, [System.Windows.Forms.MessageBoxIcon]::Question)
+		if ($result -eq 'Yes')
+		{
+			$formAlterarProduto.Close()
+			$formAlterarProduto.Dispose()
+			Show-MainForm_psf
+		}
+	}
 }
 ]]></Code>
   <Mode>1</Mode>
