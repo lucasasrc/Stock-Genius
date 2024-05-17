@@ -12,10 +12,11 @@
   </OpenFolders>
   <OpenFiles>
     <File>Startup.pss</File>
-    <File>MainForm.psf</File>
     <File>Globals.ps1</File>
     <File>Forms\Paineis\PainelAdmin.psf</File>
-    <File>Forms\Paineis\PainelOperador.psf</File>
-    <File>Forms\Cadastros\CadastroUsuarios.psf</File>
+    <File>Forms\Cadastros\CadastroFornecedor.psf</File>
+    <File>Forms\Filtros\ListarFornecedores.psf</File>
+    <File>Forms\Alteracoes\AlterarFornecedor.psf</File>
+    <File>Forms\Cadastros\CadastroProdutos.psf</File>
   </OpenFiles>
 </ProjectState>
