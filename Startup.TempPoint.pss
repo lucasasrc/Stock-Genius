@@ -52,8 +52,7 @@ function Main {
 	}
 	else
 	{
-		Show-PainelAdmin_psf
-		#Show-MainForm_psf
+		Show-MainForm_psf
 	}
 	
 	
