@@ -42,5 +42,8 @@
     <File Build="0" ReferenceFunction="Show-ListarProdutos_psf">Forms\Filtros\ListarProdutos.psf</File>
     <File Build="0" ReferenceFunction="Show-AlterarProduto_psf">Forms\Alteracoes\AlterarProduto.psf</File>
     <File Build="0" ReferenceFunction="Show-AlterarSenha_psf">Forms\Alteracoes\AlterarSenha.psf</File>
+    <File Build="0" ReferenceFunction="Show-CadastroFornecedor_psf">Forms\Cadastros\CadastroFornecedor.psf</File>
+    <File Build="0" ReferenceFunction="Show-ListarFornecedores_psf">Forms\Filtros\ListarFornecedores.psf</File>
+    <File Build="0" ReferenceFunction="Show-AlterarFornecedor_psf">Forms\Alteracoes\AlterarFornecedor.psf</File>
   </Files>
 </Project>

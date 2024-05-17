@@ -21,19 +21,6 @@ $catListadoProd = ''
 $fornListadoProd = ''
 $armListadoProd = ''
 
-#Variáveis de atualização de fornecedor
-$idListadoForn = ''
-$razaoListadoForn = ''
-$cnpjListadoForn = ''
-$cepListadoForn = ''
-$estadoListadoForn = ''
-$cidadeListadoForn = ''
-$enderecoListadoForn = ''
-$numeroListadoForn = ''
-$telefoneListadoForn = ''
-$emailListadoForn = ''
-
-
 #Configurações de acesso ao banco de dados
 Add-Type -Path "C:\Program Files (x86)\MySQL\MySQL Connector NET 8.3.0\MySql.Data.dll"
 $parametros = "server=127.0.0.1;port=3306;user=root;password=Datadmin0!;database=stock_genius" #Banco Local
