@@ -16,7 +16,7 @@
     <File>Forms\Paineis\PainelAdmin.psf</File>
     <File>Forms\Cadastros\CadastroFornecedor.psf</File>
     <File>Forms\Filtros\ListarFornecedores.psf</File>
-    <File>Forms\Alteracoes\AlterarFornecedor.psf</File>
     <File>Forms\Cadastros\CadastroProdutos.psf</File>
+    <File>Forms\Cadastros\CategoriaProduto.psf</File>
   </OpenFiles>
 </ProjectState>
