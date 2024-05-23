@@ -15,6 +15,7 @@
     <Folder>SQL</Folder>
     <Folder>Forms\Filtros</Folder>
     <Folder>Forms\Alteracoes</Folder>
+    <Folder>Forms\Alertas</Folder>
   </Folders>
   <Files>
     <File Build="0">Startup.pss</File>
@@ -45,5 +46,11 @@
     <File Build="0" ReferenceFunction="Show-CadastroFornecedor_psf">Forms\Cadastros\CadastroFornecedor.psf</File>
     <File Build="0" ReferenceFunction="Show-ListarFornecedores_psf">Forms\Filtros\ListarFornecedores.psf</File>
     <File Build="0" ReferenceFunction="Show-AlterarFornecedor_psf">Forms\Alteracoes\AlterarFornecedor.psf</File>
+    <File Build="0" ReferenceFunction="Show-Alerta-Delete_psf">Forms\Alertas\Alerta-Delete.psf</File>
+    <File Build="0" ReferenceFunction="Show-CampoVazio_psf">Forms\Alertas\CampoVazio.psf</File>
+    <File Build="0" ReferenceFunction="Show-CadastroRealizado_psf">Forms\Alertas\CadastroRealizado.psf</File>
+    <File Build="0" ReferenceFunction="Show-ConfirmarCadastro_psf">Forms\Alertas\ConfirmarCadastro.psf</File>
+    <File Build="0" ReferenceFunction="Show-CadastroDuplicado_psf">Forms\Alertas\CadastroDuplicado.psf</File>
+    <File Build="0" ReferenceFunction="Show-DeleteSucesso_psf">Forms\Alertas\DeleteSucesso.psf</File>
   </Files>
 </Project>
