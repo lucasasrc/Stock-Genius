@@ -52,7 +52,9 @@ function Main {
 	}
 	else
 	{
-		Show-PainelAdmin_psf
+		Show-PainelOperador_psf
+		Show-CategoriaProduto_psf
+		#Show-PainelAdmin_psf
 		#Show-MainForm_psf
 	}
 	
