@@ -2,23 +2,13 @@
   <Version>1.0</Version>
   <FileID>5dba09ef-15b3-4b4c-9d5b-81c53a763c28</FileID>
   <OpenFolders>
-    <Folder>templates</Folder>
-    <Folder>Forms</Folder>
-    <Folder>Forms\Cadastros</Folder>
-    <Folder>Forms\Paineis</Folder>
-    <Folder>Forms\Login</Folder>
-    <Folder>Forms\Filtros</Folder>
-    <Folder>Forms\Alertas</Folder>
+    <Folder>Forms\Alertas\Usuários</Folder>
   </OpenFolders>
   <OpenFiles>
     <File>Startup.pss</File>
     <File>Globals.ps1</File>
-    <File>Forms\Paineis\PainelAdmin.psf</File>
-    <File>Forms\Cadastros\CadastroFornecedor.psf</File>
-    <File>Forms\Cadastros\CategoriaProduto.psf</File>
+    <File>Forms\Alertas\Login\LoginSucesso.psf</File>
     <File>MainForm.psf</File>
-    <File>Forms\Login\MFA.psf</File>
     <File>Forms\Login\RecuperarSenha.psf</File>
-    <File>Forms\Alertas\Alerta-Delete.psf</File>
   </OpenFiles>
 </ProjectState>

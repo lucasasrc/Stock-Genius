@@ -16,6 +16,9 @@
     <Folder>Forms\Filtros</Folder>
     <Folder>Forms\Alteracoes</Folder>
     <Folder>Forms\Alertas</Folder>
+    <Folder>Forms\Alertas\Login</Folder>
+    <Folder>Forms\Alertas\CRUDs</Folder>
+    <Folder>Forms\Alertas\Usuários</Folder>
   </Folders>
   <Files>
     <File Build="0">Startup.pss</File>
@@ -33,7 +36,7 @@
     <File Build="0" ReferenceFunction="Show-RecuperarSenha_psf">Forms\Login\RecuperarSenha.psf</File>
     <File Build="0" ReferenceFunction="Show-PainelOperador_psf">Forms\Paineis\PainelOperador.psf</File>
     <File Build="0" ReferenceFunction="Show-CadastroProdutos_psf">Forms\Cadastros\CadastroProdutos.psf</File>
-    <File Build="0" ReferenceFunction="Show-CategoriaProduto_psf">Forms\Cadastros\CategoriaProduto.psf</File>
+    <File Build="0" ReferenceFunction="Show-CadastroCategoria_psf">Forms\Cadastros\CadastroCategoria.psf</File>
     <File Build="2">SQL\Criacao.sql</File>
     <File Build="2">templates\RecuperarUsuario.html</File>
     <File Build="2">templates\RecuperarSenha.html</File>
@@ -46,11 +49,21 @@
     <File Build="0" ReferenceFunction="Show-CadastroFornecedor_psf">Forms\Cadastros\CadastroFornecedor.psf</File>
     <File Build="0" ReferenceFunction="Show-ListarFornecedores_psf">Forms\Filtros\ListarFornecedores.psf</File>
     <File Build="0" ReferenceFunction="Show-AlterarFornecedor_psf">Forms\Alteracoes\AlterarFornecedor.psf</File>
-    <File Build="0" ReferenceFunction="Show-Alerta-Delete_psf">Forms\Alertas\Alerta-Delete.psf</File>
+    <File Build="0" ReferenceFunction="Show-Alerta-Delete_psf">Forms\Alertas\CRUDs\Alerta-Delete.psf</File>
     <File Build="0" ReferenceFunction="Show-CampoVazio_psf">Forms\Alertas\CampoVazio.psf</File>
-    <File Build="0" ReferenceFunction="Show-CadastroRealizado_psf">Forms\Alertas\CadastroRealizado.psf</File>
-    <File Build="0" ReferenceFunction="Show-ConfirmarCadastro_psf">Forms\Alertas\ConfirmarCadastro.psf</File>
-    <File Build="0" ReferenceFunction="Show-CadastroDuplicado_psf">Forms\Alertas\CadastroDuplicado.psf</File>
-    <File Build="0" ReferenceFunction="Show-DeleteSucesso_psf">Forms\Alertas\DeleteSucesso.psf</File>
+    <File Build="0" ReferenceFunction="Show-CadastroRealizado_psf">Forms\Alertas\CRUDs\CadastroRealizado.psf</File>
+    <File Build="0" ReferenceFunction="Show-ConfirmarCadastro_psf">Forms\Alertas\CRUDs\ConfirmarCadastro.psf</File>
+    <File Build="0" ReferenceFunction="Show-CadastroDuplicado_psf">Forms\Alertas\CRUDs\CadastroDuplicado.psf</File>
+    <File Build="0" ReferenceFunction="Show-DeleteSucesso_psf">Forms\Alertas\CRUDs\DeleteSucesso.psf</File>
+    <File Build="0" ReferenceFunction="Show-AlterarCategoria_psf">Forms\Alteracoes\AlterarCategoria.psf</File>
+    <File Build="0" ReferenceFunction="Show-ConfirmarAlteracao_psf">Forms\Alertas\CRUDs\ConfirmarAlteracao.psf</File>
+    <File Build="0" ReferenceFunction="Show-AlteracaoRealizada_psf">Forms\Alertas\CRUDs\AlteracaoRealizada.psf</File>
+    <File Build="0" ReferenceFunction="Show-LoginSucesso_psf">Forms\Alertas\Login\LoginSucesso.psf</File>
+    <File Build="0" ReferenceFunction="Show-CredencialIncorreta_psf">Forms\Alertas\CRUDs\CredencialIncorreta.psf</File>
+    <File Build="0" ReferenceFunction="Show-MfaIncorreto_psf">Forms\Alertas\Login\MfaIncorreto.psf</File>
+    <File Build="0" ReferenceFunction="Show-LoginCancelado_psf">Forms\Alertas\Login\LoginCancelado.psf</File>
+    <File Build="0" ReferenceFunction="Show-TempoExpirado_psf">Forms\Alertas\Login\TempoExpirado.psf</File>
+    <File Build="0" ReferenceFunction="Show-EmailRecuperacao_psf">Forms\Alertas\Login\EmailRecuperacao.psf</File>
+    <File Build="0" ReferenceFunction="Show-AlertaEmail_psf">Forms\Alertas\Usuários\AlertaEmail.psf</File>
   </Files>
 </Project>

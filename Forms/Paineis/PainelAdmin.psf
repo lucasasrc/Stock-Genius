@@ -2379,7 +2379,7 @@ $buttonAlterarFornecedores_Click={
 }
 
 $buttonCadastrarCategoria_Click={
-	Show-CadastroFornecedor_psf
+	Show-CadastroCategoria_psf
 }
 ]]></Code>
   <Mode>1</Mode>
