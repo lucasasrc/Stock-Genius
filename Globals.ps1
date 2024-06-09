@@ -5,6 +5,8 @@
 # Variáveis globais
 $mfaCode = ''
 $usuarioAutenticado = ''
+$nomeUsuario = ''
+$timeoutGlobal = ''
 
 #Variáveis de atualização de usuário
 $idListada = ''
@@ -32,6 +34,11 @@ $enderecoListadoForn = ''
 $numeroListadoForn = ''
 $telefoneListadoForn = ''
 $emailListadoForn = ''
+
+#Variáveis de atualização de categoria de produto
+$idListadaCat = ''
+$nomeListadoCat = ''
+$descListadaCat = ''
 
 
 #Configurações de acesso ao banco de dados
