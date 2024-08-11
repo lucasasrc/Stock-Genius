@@ -19,6 +19,8 @@
     <Folder>Forms\Alertas\Login</Folder>
     <Folder>Forms\Alertas\CRUDs</Folder>
     <Folder>Forms\Alertas\Usuários</Folder>
+    <Folder>Forms\Alertas\CRUDs\Fornecedor</Folder>
+    <Folder>Forms\Alertas\CRUDs\Usuarios</Folder>
   </Folders>
   <Files>
     <File Build="0">Startup.pss</File>
@@ -31,7 +33,6 @@
     <File Build="2">img\stock genius big.png</File>
     <File Build="2">img\stock genius MFA.png</File>
     <File Build="2">templates\MFA.html</File>
-    <File Build="0" ReferenceFunction="Show-FiltroUsuarios_psf">Forms\Filtros\FiltroUsuarios.psf</File>
     <File Build="0" ReferenceFunction="Show-CadastroUsuarios_psf">Forms\Cadastros\CadastroUsuarios.psf</File>
     <File Build="0" ReferenceFunction="Show-RecuperarSenha_psf">Forms\Login\RecuperarSenha.psf</File>
     <File Build="0" ReferenceFunction="Show-PainelOperador_psf">Forms\Paineis\PainelOperador.psf</File>
@@ -65,5 +66,15 @@
     <File Build="0" ReferenceFunction="Show-TempoExpirado_psf">Forms\Alertas\Login\TempoExpirado.psf</File>
     <File Build="0" ReferenceFunction="Show-EmailRecuperacao_psf">Forms\Alertas\Login\EmailRecuperacao.psf</File>
     <File Build="0" ReferenceFunction="Show-AlertaEmail_psf">Forms\Alertas\Usuários\AlertaEmail.psf</File>
+    <File Build="0" ReferenceFunction="Show-PreencherAutomaticamente_psf">Forms\Alertas\CRUDs\Fornecedor\PreencherAutomaticamente.psf</File>
+    <File Build="0" ReferenceFunction="Show-CnpjInvalido_psf">Forms\Alertas\CRUDs\Fornecedor\CnpjInvalido.psf</File>
+    <File Build="0" ReferenceFunction="Show-CepInvalido_psf">Forms\Alertas\CRUDs\Fornecedor\CepInvalido.psf</File>
+    <File Build="0" ReferenceFunction="Show-ErroConsulta_psf">Forms\Alertas\CRUDs\Fornecedor\ErroConsulta.psf</File>
+    <File Build="0" ReferenceFunction="Show-SenhaFraca_psf">Forms\Alertas\CRUDs\Usuarios\SenhaFraca.psf</File>
+    <File Build="0" ReferenceFunction="Show-EmailInvalido_psf">Forms\Alertas\CRUDs\Usuarios\EmailInvalido.psf</File>
+    <File Build="0" ReferenceFunction="Show-TipoUsuario_psf">Forms\Alertas\CRUDs\Usuarios\TipoUsuario.psf</File>
+    <File Build="0" ReferenceFunction="Show-ItemAssociado_psf">Forms\Alertas\CRUDs\ItemAssociado.psf</File>
+    <File Build="0" ReferenceFunction="Show-Logout_psf">Forms\Alertas\Logout.psf</File>
+    <File Build="0" ReferenceFunction="Show-TamanhoUsuario_psf">Forms\Alertas\CRUDs\Usuarios\TamanhoUsuario.psf</File>
   </Files>
 </Project>

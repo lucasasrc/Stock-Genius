@@ -14,7 +14,6 @@
     <File>Forms\Paineis\PainelOperador.psf</File>
     <File>Forms\Cadastros\CadastroCategoria.psf</File>
     <File>Forms\Paineis\PainelAdmin.psf</File>
-    <File>Forms\Cadastros\CadastroProdutos.psf</File>
-    <File>Forms\Filtros\ListarFornecedores.psf</File>
+    <File>MainForm.psf</File>
   </OpenFiles>
 </ProjectState>
