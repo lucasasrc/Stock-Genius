@@ -2563,7 +2563,7 @@ v32+/zP8KfIfTRn9my9/fRz+8X8BG+Sp81wFAgA=</Form>
   <Code><![CDATA[
 $formEmailRecuperacao_Load={
 	## Adicionar evento Paint
-	$formLoginExpirado.add_Paint({
+	$formEmailRecuperacao.add_Paint({
 			param ($sender,
 				$e)
 			$borderColor = [System.Drawing.Color]::Gray # Cor da borda
@@ -2571,18 +2571,18 @@ $formEmailRecuperacao_Load={
 			
 			# Desenhar a borda
 			$graphics = $e.Graphics
-			$rectangle = [System.Drawing.Rectangle]::FromLTRB($borderWidth / 2, $borderWidth / 2, $formLoginExpirado.ClientSize.Width - $borderWidth / 2, $formLoginExpirado.ClientSize.Height - $borderWidth / 2)
+			$rectangle = [System.Drawing.Rectangle]::FromLTRB($borderWidth / 2, $borderWidth / 2, $formEmailRecuperacao.ClientSize.Width - $borderWidth / 2, $formEmailRecuperacao.ClientSize.Height - $borderWidth / 2)
 			$pen = New-Object System.Drawing.Pen($borderColor, $borderWidth)
 			$graphics.DrawRectangle($pen, $rectangle)
 		})
 }
 
-$formLoginExpirado.add_Load($formLoginExpirado_Load)
+$formEmailRecuperacao.add_Load($formEmailRecuperacao_Load)
 
 $buttonOK_Click={
 	$formEmailRecuperacao.DialogResult = [System.Windows.Forms.DialogResult]::OK
 }
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies />
 </File>

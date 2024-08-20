@@ -52,7 +52,11 @@ function Main {
 	}
 	else
 	{
+		#Show-ControlePrincipal_psf
+		#Show-PainelOperador_psf
+		#Show-PainelAdmin_psf
 		Show-MainForm_psf
+		#Show-CaixaAviso_psf
 	}
 	
 	
