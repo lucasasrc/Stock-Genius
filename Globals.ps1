@@ -7,6 +7,7 @@ $mfaCode = ''
 $usuarioAutenticado = ''
 $nomeUsuario = ''
 $timeoutGlobal = ''
+$idUsuario = ''
 
 #Variáveis de atualização de usuário
 $idListada = ''
@@ -41,6 +42,19 @@ $nomeListadoCat = ''
 $descListadaCat = ''
 $precoListadoCat = ''
 
+#Variáveis para a caixa de e-mail
+$idOcultaAviso = ''
+$dataAviso = ''
+$tituloAviso = ''
+$mensagemAviso = ''
+
+#Variáveis para a entrada de produtos
+$entradaIdProduto = ''
+$entradaIdFornecedor = ''
+$entradaProduto = ''
+$entradaCategoria = ''
+$entradaFornecedor = ''
+$entradaArmazenamento = ''
 
 #Configurações de acesso ao banco de dados
 Add-Type -Path "C:\Program Files (x86)\MySQL\MySQL Connector NET 8.3.0\MySql.Data.dll"

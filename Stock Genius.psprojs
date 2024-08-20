@@ -5,15 +5,19 @@
     <Folder>Forms</Folder>
     <Folder>Forms\Cadastros</Folder>
     <Folder>Forms\Paineis</Folder>
-    <Folder>Forms\Filtros</Folder>
-    <Folder>Forms\Alteracoes</Folder>
+    <Folder>Forms\Login</Folder>
+    <Folder>Forms\Alertas</Folder>
+    <Folder>Forms\Alertas\Login</Folder>
+    <Folder>Forms\Alertas\CRUDs</Folder>
+    <Folder>Forms\Controle</Folder>
+    <Folder>Forms\Alertas\CRUDs\Controle</Folder>
   </OpenFolders>
   <OpenFiles>
     <File>Startup.pss</File>
     <File>Globals.ps1</File>
-    <File>Forms\Paineis\PainelOperador.psf</File>
-    <File>Forms\Cadastros\CadastroCategoria.psf</File>
-    <File>Forms\Paineis\PainelAdmin.psf</File>
-    <File>MainForm.psf</File>
+    <File>Forms\Controle\ControlePrincipal.psf</File>
+    <File>Forms\Controle\EntradaProdutos.psf</File>
+    <File>Forms\Controle\SaidaProdutos.psf</File>
+    <File>Forms\Alertas\CRUDs\Controle\SaidaRealizada.psf</File>
   </OpenFiles>
 </ProjectState>

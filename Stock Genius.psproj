@@ -21,6 +21,9 @@
     <Folder>Forms\Alertas\Usuários</Folder>
     <Folder>Forms\Alertas\CRUDs\Fornecedor</Folder>
     <Folder>Forms\Alertas\CRUDs\Usuarios</Folder>
+    <Folder>Forms\Controle</Folder>
+    <Folder>Forms\Alertas\CRUDs\Controle</Folder>
+    <Folder>Forms\Avisos</Folder>
   </Folders>
   <Files>
     <File Build="0">Startup.pss</File>
@@ -76,5 +79,15 @@
     <File Build="0" ReferenceFunction="Show-ItemAssociado_psf">Forms\Alertas\CRUDs\ItemAssociado.psf</File>
     <File Build="0" ReferenceFunction="Show-Logout_psf">Forms\Alertas\Logout.psf</File>
     <File Build="0" ReferenceFunction="Show-TamanhoUsuario_psf">Forms\Alertas\CRUDs\Usuarios\TamanhoUsuario.psf</File>
+    <File Build="0" ReferenceFunction="Show-ControlePrincipal_psf">Forms\Controle\ControlePrincipal.psf</File>
+    <File Build="0" ReferenceFunction="Show-QueryNoFound_psf">Forms\Alertas\CRUDs\Controle\QueryNoFound.psf</File>
+    <File Build="0" ReferenceFunction="Show-CaixaAviso_psf">Forms\Avisos\CaixaAviso.psf</File>
+    <File Build="0" ReferenceFunction="Show-LeituraAviso_psf">Forms\Avisos\LeituraAviso.psf</File>
+    <File Build="0" ReferenceFunction="Show-EntradaProdutos_psf">Forms\Controle\EntradaProdutos.psf</File>
+    <File Build="0" ReferenceFunction="Show-ConfirmarInsert_psf">Forms\Alertas\CRUDs\Controle\ConfirmarInsert.psf</File>
+    <File Build="0" ReferenceFunction="Show-InsertRealizado_psf">Forms\Alertas\CRUDs\Controle\InsertRealizado.psf</File>
+    <File Build="0" ReferenceFunction="Show-SaidaProdutos_psf">Forms\Controle\SaidaProdutos.psf</File>
+    <File Build="0" ReferenceFunction="Show-QuantiaInsuficiente_psf">Forms\Alertas\CRUDs\Controle\QuantiaInsuficiente.psf</File>
+    <File Build="0" ReferenceFunction="Show-SaidaRealizada_psf">Forms\Alertas\CRUDs\Controle\SaidaRealizada.psf</File>
   </Files>
 </Project>
