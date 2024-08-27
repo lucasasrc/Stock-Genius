@@ -7,17 +7,17 @@
     <Folder>Forms\Paineis</Folder>
     <Folder>Forms\Login</Folder>
     <Folder>Forms\Alertas</Folder>
-    <Folder>Forms\Alertas\Login</Folder>
     <Folder>Forms\Alertas\CRUDs</Folder>
     <Folder>Forms\Controle</Folder>
-    <Folder>Forms\Alertas\CRUDs\Controle</Folder>
+    <Folder>Forms\Alertas\CRUDs\Cadastros</Folder>
   </OpenFolders>
   <OpenFiles>
     <File>Startup.pss</File>
     <File>Globals.ps1</File>
     <File>Forms\Controle\ControlePrincipal.psf</File>
-    <File>Forms\Controle\EntradaProdutos.psf</File>
+    <File>Forms\Cadastros\CadastroFornecedor.psf</File>
+    <File>Forms\Cadastros\CadastroProdutos.psf</File>
+    <File>Forms\Alertas\CRUDs\Cadastros\LerCodigo.psf</File>
     <File>Forms\Controle\SaidaProdutos.psf</File>
-    <File>Forms\Alertas\CRUDs\Controle\SaidaRealizada.psf</File>
   </OpenFiles>
 </ProjectState>
