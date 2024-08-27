@@ -24,6 +24,7 @@
     <Folder>Forms\Controle</Folder>
     <Folder>Forms\Alertas\CRUDs\Controle</Folder>
     <Folder>Forms\Avisos</Folder>
+    <Folder>Forms\Alertas\CRUDs\Cadastros</Folder>
   </Folders>
   <Files>
     <File Build="0">Startup.pss</File>
@@ -89,5 +90,7 @@
     <File Build="0" ReferenceFunction="Show-SaidaProdutos_psf">Forms\Controle\SaidaProdutos.psf</File>
     <File Build="0" ReferenceFunction="Show-QuantiaInsuficiente_psf">Forms\Alertas\CRUDs\Controle\QuantiaInsuficiente.psf</File>
     <File Build="0" ReferenceFunction="Show-SaidaRealizada_psf">Forms\Alertas\CRUDs\Controle\SaidaRealizada.psf</File>
+    <File Build="0" ReferenceFunction="Show-CampoVazioControle_psf">Forms\Alertas\CRUDs\Controle\CampoVazioControle.psf</File>
+    <File Build="0" ReferenceFunction="Show-LerCodigo_psf">Forms\Alertas\CRUDs\Cadastros\LerCodigo.psf</File>
   </Files>
 </Project>
