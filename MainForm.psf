@@ -15410,6 +15410,10 @@ $buttonLogin_Click={
 					{
 						Show-PainelOperador_psf
 					}
+					elseif ($tipo -eq 3)
+					{
+						Show-PainelGerente_psf
+					}
 					
 					break
 				}
