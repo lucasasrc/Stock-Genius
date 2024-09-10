@@ -25,6 +25,7 @@
     <Folder>Forms\Alertas\CRUDs\Controle</Folder>
     <Folder>Forms\Avisos</Folder>
     <Folder>Forms\Alertas\CRUDs\Cadastros</Folder>
+    <Folder>Forms\Alertas\CRUDs\Produtos</Folder>
   </Folders>
   <Files>
     <File Build="0">Startup.pss</File>
@@ -92,5 +93,10 @@
     <File Build="0" ReferenceFunction="Show-SaidaRealizada_psf">Forms\Alertas\CRUDs\Controle\SaidaRealizada.psf</File>
     <File Build="0" ReferenceFunction="Show-CampoVazioControle_psf">Forms\Alertas\CRUDs\Controle\CampoVazioControle.psf</File>
     <File Build="0" ReferenceFunction="Show-LerCodigo_psf">Forms\Alertas\CRUDs\Cadastros\LerCodigo.psf</File>
+    <File Build="0" ReferenceFunction="Show-FiltrosProdutos_psf">Forms\Filtros\FiltrosProdutos.psf</File>
+    <File Build="0" ReferenceFunction="Show-CampoVazioFiltro_psf">Forms\Alertas\CRUDs\Produtos\CampoVazioFiltro.psf</File>
+    <File Build="0" ReferenceFunction="Show-PainelGerente_psf">Forms\Paineis\PainelGerente.psf</File>
+    <File Build="0" ReferenceFunction="Show-HistoricoControleEstoque_psf">Forms\Controle\HistoricoControleEstoque.psf</File>
+    <File Build="0" ReferenceFunction="Show-FiltrosFornecedores_psf">Forms\Filtros\FiltrosFornecedores.psf</File>
   </Files>
 </Project>
