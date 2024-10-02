@@ -1,0 +1,33 @@
+﻿{
+    "Hora":  "15:52",
+    "Data":  "28/09/2024",
+    "Produtos":  [
+                     {
+                         "Produto":  "APOSTILA",
+                         "Movimentos":  [
+                                            {
+                                                "EntradaQuantia":  1,
+                                                "EntradaNF":  "12345",
+                                                "Data":  "04/01/2017",
+                                                "SaidaNF":  "54321",
+                                                "SaidaQuantia":  0
+                                            }
+                                        ],
+                         "Fornecedor":  "Fornecedor XYZ"
+                     },
+                     {
+                         "Produto":  "CADERNO DE EXERCICIOS",
+                         "Movimentos":  [
+                                            {
+                                                "EntradaQuantia":  1,
+                                                "EntradaNF":  "67890",
+                                                "Data":  "04/01/2017",
+                                                "SaidaNF":  "09876",
+                                                "SaidaQuantia":  0
+                                            }
+                                        ],
+                         "Fornecedor":  "Fornecedor ABC"
+                     }
+                 ],
+    "EmitidoPor":  "Teste Gerente"
+}

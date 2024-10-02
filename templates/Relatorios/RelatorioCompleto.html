@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relação de Estoque - Entrada e Saída</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding: 20px;
+        }
+        .header img {
+            max-width: 100px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .report-info {
+            margin: 20px 0;
+            text-align: right;
+            font-size: 14px;
+        }
+        .filters {
+            border: 1px solid #000;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .filters p {
+            margin: 5px 0;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .supplier {
+            font-size: 14px;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        .footer {
+            text-align: right;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        /* Print Styles */
+        @media print {
+            body {
+                margin-top: 100px; /* Ajuste conforme necessário */
+            }
+            .header {
+                position: static; /* Remover posição fixa */
+                top: 0;
+            }
+            .section-title, .supplier, table {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="https://i.imgur.com/ElpWNhq.png" alt="Logo">
+        <div class="title">Relação de Estoque - Entrada e Saída</div>
+    </div>
+
+    <br>
+
+    <div id="content"><div class='filters'><p><strong>Data:</strong> 01/10/2024</p><p><strong>Hora:</strong> 18:51</p><p><strong>Emitido por:</strong> Teste Gerente</p></div><div class='section-title'>Produto: Mouse Gamer</div><div class='supplier'>Fornecedor: MICROSOFT DO BRASIL</div><table><thead>
+                            <tr>
+                                <th rowspan='2'>Data</th>
+                                <th colspan='2'>Entrada</th>
+                                <th colspan='2'>Saída</th>
+                            </tr>
+                            <tr>
+                                <th>NF</th>
+                                <th>Quantia</th>
+                                <th>NF</th>
+                                <th>Quantia</th>
+                            </tr>
+                         </thead>
+                         <tbody><tr>
+                                <td>20/08/2024</td>
+                                <td>52433</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>0</td>
+                             </tr><tr>
+                                <td>20/08/2024</td>
+                                <td></td>
+                                <td>0</td>
+                                <td>33513</td>
+                                <td>1</td>
+                             </tr><tr>
+                                <td>20/08/2024</td>
+                                <td>65324134</td>
+                                <td>3</td>
+                                <td></td>
+                                <td>0</td>
+                             </tr><tr>
+                                <td>20/08/2024</td>
+                                <td></td>
+                                <td>0</td>
+                                <td>432</td>
+                                <td>1</td>
+                             </tr><tr>
+                                <td>20/08/2024</td>
+                                <td></td>
+                                <td>0</td>
+                                <td>64534</td>
+                                <td>2</td>
+                             </tr><tr>
+                                <td>20/08/2024</td>
+                                <td>43421</td>
+                                <td>5</td>
+                                <td></td>
+                                <td>0</td>
+                             </tr><tr>
+                                <td>20/08/2024</td>
+                                <td></td>
+                                <td>0</td>
+                                <td>65341</td>
+                                <td>1</td>
+                             </tr><tr>
+                                <td>27/08/2024</td>
+                                <td></td>
+                                <td>0</td>
+                                <td>321431</td>
+                                <td>1</td>
+                             </tr></tbody></table><div class='section-title'>Produto: Mouse sem fio</div><div class='supplier'>Fornecedor: MICROSOFT DO BRASIL</div><table><thead>
+                            <tr>
+                                <th rowspan='2'>Data</th>
+                                <th colspan='2'>Entrada</th>
+                                <th colspan='2'>Saída</th>
+                            </tr>
+                            <tr>
+                                <th>NF</th>
+                                <th>Quantia</th>
+                                <th>NF</th>
+                                <th>Quantia</th>
+                            </tr>
+                         </thead>
+                         <tbody><tr>
+                                <td>20/08/2024</td>
+                                <td>123213</td>
+                                <td>3</td>
+                                <td></td>
+                                <td>0</td>
+                             </tr><tr>
+                                <td>20/08/2024</td>
+                                <td></td>
+                                <td>0</td>
+                                <td>5241</td>
+                                <td>1</td>
+                             </tr><tr>
+                                <td>20/08/2024</td>
+                                <td></td>
+                                <td>0</td>
+                                <td>12</td>
+                                <td>1</td>
+                             </tr><tr>
+                                <td>20/08/2024</td>
+                                <td>354431</td>
+                                <td>15</td>
+                                <td></td>
+                                <td>0</td>
+                             </tr><tr>
+                                <td>20/08/2024</td>
+                                <td>3269596</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>0</td>
+                             </tr><tr>
+                                <td>20/08/2024</td>
+                                <td></td>
+                                <td>0</td>
+                                <td>159841562</td>
+                                <td>13</td>
+                             </tr><tr>
+                                <td>27/08/2024</td>
+                                <td>123456</td>
+                                <td>7</td>
+                                <td></td>
+                                <td>0</td>
+                             </tr></tbody></table></div>
+
+    <div class="footer">
+        Relatório emitido por: AIX SISTEMAS
+    </div>
+</body>
+</html>
+

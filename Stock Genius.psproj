@@ -26,6 +26,7 @@
     <Folder>Forms\Avisos</Folder>
     <Folder>Forms\Alertas\CRUDs\Cadastros</Folder>
     <Folder>Forms\Alertas\CRUDs\Produtos</Folder>
+    <Folder>Forms\Dashboard</Folder>
   </Folders>
   <Files>
     <File Build="0">Startup.pss</File>
@@ -98,5 +99,8 @@
     <File Build="0" ReferenceFunction="Show-PainelGerente_psf">Forms\Paineis\PainelGerente.psf</File>
     <File Build="0" ReferenceFunction="Show-HistoricoControleEstoque_psf">Forms\Controle\HistoricoControleEstoque.psf</File>
     <File Build="0" ReferenceFunction="Show-FiltrosFornecedores_psf">Forms\Filtros\FiltrosFornecedores.psf</File>
+    <File Build="0" ReferenceFunction="Show-FiltrosUsuarios_psf">Forms\Filtros\FiltrosUsuarios.psf</File>
+    <File Build="0" ReferenceFunction="Show-Dashboard_psf">Forms\Dashboard\Dashboard.psf</File>
+    <File Build="0" ReferenceFunction="Show-DataIncorreta_psf">Forms\Alertas\DataIncorreta.psf</File>
   </Files>
 </Project>
