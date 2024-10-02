@@ -55,7 +55,9 @@ function Main {
 		#Show-ControlePrincipal_psf
 		#Show-PainelOperador_psf
 		#Show-PainelAdmin_psf
-		Show-MainForm_psf
+		#Show-PainelGerente_psf
+		Show-Dashboard_psf
+		#Show-MainForm_psf
 		#Show-CaixaAviso_psf
 		#Show-HistoricoControleEstoque_psf
 		#Show-ListarFornecedores_psf

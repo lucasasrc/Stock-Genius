@@ -3,22 +3,19 @@
   <FileID>5dba09ef-15b3-4b4c-9d5b-81c53a763c28</FileID>
   <OpenFolders>
     <Folder>Forms</Folder>
-    <Folder>Forms\Cadastros</Folder>
     <Folder>Forms\Paineis</Folder>
-    <Folder>Forms\Login</Folder>
     <Folder>Forms\Filtros</Folder>
     <Folder>Forms\Alertas</Folder>
-    <Folder>Forms\Alertas\Usuários</Folder>
+    <Folder>Forms\Alertas\CRUDs</Folder>
     <Folder>Forms\Controle</Folder>
     <Folder>Forms\Alertas\CRUDs\Controle</Folder>
-    <Folder>Forms\Alertas\CRUDs\Cadastros</Folder>
-    <Folder>Forms\Alertas\CRUDs\Produtos</Folder>
+    <Folder>Forms\Dashboard</Folder>
   </OpenFolders>
   <OpenFiles>
     <File>Startup.pss</File>
     <File>Globals.ps1</File>
-    <File>Forms\Alertas\CRUDs\Cadastros\LerCodigo.psf</File>
-    <File>Forms\Paineis\PainelAdmin.psf</File>
-    <File>Forms\Paineis\PainelOperador.psf</File>
+    <File>Forms\Filtros\ListarUsuarios.psf</File>
+    <File>Forms\Paineis\PainelGerente.psf</File>
+    <File>Forms\Dashboard\Dashboard.psf</File>
   </OpenFiles>
 </ProjectState>
