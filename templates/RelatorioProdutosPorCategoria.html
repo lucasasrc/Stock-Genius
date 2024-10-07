@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relação de Estoque - Entrada e Saída</title>
+    <title>Relação de Estoque - Produtos por Categoria</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,14 +34,11 @@
         .filters p {
             margin: 5px 0;
         }
-        .section-title {
+        .category-title {
             font-weight: bold;
+            font-size: 18px;
             margin-top: 20px;
-        }
-        .supplier {
-            font-size: 14px;
-            font-style: italic;
-            margin-bottom: 10px;
+            text-align: center;
         }
         table {
             width: 100%;
@@ -53,9 +50,14 @@
             border: 1px solid #000;
             padding: 8px;
             text-align: center;
+            vertical-align: middle;
         }
         th {
             background-color: #f0f0f0;
+        }
+        .barcode-img {
+            max-width: 150px;
+            max-height: 50px;
         }
         .footer {
             text-align: right;
@@ -68,10 +70,10 @@
                 margin-top: 100px; /* Ajuste conforme necessário */
             }
             .header {
-                position: static; /* Remover posição fixa */
+                position: static;
                 top: 0;
             }
-            .section-title, .supplier, table {
+            table {
                 page-break-inside: avoid;
             }
         }
@@ -81,13 +83,13 @@
 
     <div class="header">
         <img src="https://i.imgur.com/ElpWNhq.png" alt="Logo">
-        <div class="title">Relação de Estoque - Entrada e Saída</div>
+        <div class="title">Relação de Estoque - Produtos por Categoria</div>
     </div>
 
     <br>
 
     <div id="content">
-        <!-- Conteúdo dinâmico dos produtos será preenchido aqui pelo JavaScript -->
+        <!-- Conteúdo dinâmico dos produtos será preenchido aqui pelo PowerShell -->
     </div>
 
     <div class="footer">

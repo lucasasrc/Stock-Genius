@@ -1,0 +1,30 @@
+﻿{
+    "Hora":  "03:13",
+    "Data":  "07/10/2024",
+    "Fornecedores":  [
+                         {
+                             "Fornecedor":  "LOGITECH DO BRASIL COMERCIO DE ACESSORIOS DE INFORMATICA LTDA.",
+                             "Produtos":  [
+                                              {
+                                                  "ID":  13,
+                                                  "QtdeMin":  null,
+                                                  "Armazenamento":  "Prateleira 1 - Seção B",
+                                                  "Categoria":  "Notebook",
+                                                  "Qtde":  0,
+                                                  "CodigoBarras":  "",
+                                                  "Nome":  "teste logitech"
+                                              },
+                                              {
+                                                  "ID":  14,
+                                                  "QtdeMin":  null,
+                                                  "Armazenamento":  "Prateleira 1 - Seção A",
+                                                  "Categoria":  "Teclado",
+                                                  "Qtde":  0,
+                                                  "CodigoBarras":  "",
+                                                  "Nome":  "Teste Produto"
+                                              }
+                                          ]
+                         }
+                     ],
+    "EmitidoPor":  null
+}

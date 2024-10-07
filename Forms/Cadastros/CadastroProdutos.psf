@@ -16330,7 +16330,7 @@ $buttonCadastrarProduto_Click = {
 	$fornecedorCadProduto = $cadProdFornBox.Text
 	$localCadProduto = $cadProdArmBox.Text
 	$codBarrasCadProduto = $boxCodBarras.Text
-	$precoMinCadProduto = $cadProdQuantiaBox.Text
+	$qtdeMinCadProduto = $cadProdQuantiaBox.Text
 	
 	if ([string]::IsNullOrEmpty($nomeCadProduto))
 	{
@@ -16356,7 +16356,7 @@ $buttonCadastrarProduto_Click = {
 	{
 		Show-CampoVazio_psf
 	}
-	elseif ([string]::IsNullOrEmpty($precoMinCadProduto))
+	elseif ([string]::IsNullOrEmpty($qtdeMinCadProduto))
 	{
 		Show-CampoVazio_psf
 	}
@@ -16377,8 +16377,38 @@ $buttonCadastrarProduto_Click = {
 		}
 		else
 		{
+			Add-Type -Path "$diretorioRaiz" + "\imports\zxing.dll"
+			
+			# Crie um objeto do tipo BarcodeWriter para gerar o código de barras
+			$barcodeWriter = New-Object ZXing.BarcodeWriter
+			$barcodeWriter.Format = [ZXing.BarcodeFormat]::CODE_128 # Escolha o formato do código de barras (por exemplo, CODE_128)
+			
+			# Definir as opções de renderização
+			$barcodeOptions = New-Object ZXing.Common.EncodingOptions
+			$barcodeOptions.PureBarcode = $true # Remove os números abaixo do código de barras
+			$barcodeOptions.Width = 400 # Definir a largura do código de barras para torná-lo mais horizontal
+			$barcodeOptions.Height = 100 # Definir a altura do código de barras
+			$barcodeOptions.Margin = 0 # Remover as margens para eliminar os espaços brancos
+			
+			# Atribuir as opções ao BarcodeWriter
+			$barcodeWriter.Options = $barcodeOptions
+			
+			# Texto a ser convertido em código de barras
+			$textoCodigoBarra = $codBarrasCadProduto
+			
+			# Gerar o código de barras como uma imagem Bitmap
+			$imagemCodigoBarra = $barcodeWriter.Write($textoCodigoBarra)
+			
+			# Salvar a imagem em um MemoryStream em vez de salvá-la no disco
+			$memoryStream = New-Object System.IO.MemoryStream
+			$imagemCodigoBarra.Save($memoryStream, [System.Drawing.Imaging.ImageFormat]::Png)
+			$imageBytes = $memoryStream.ToArray()
+			
+			# Fechar o MemoryStream
+			$memoryStream.Close()
+			
 			# Configura a query para o banco
-			$query = "INSERT INTO produtos (nome, descricao, categoria, fornecedor, armazenamento, cod_barras, qtde_min) VALUES (@nome, @descricao, @categoria, @fornecedor, @armazenamento, @cod_barras, @quantia)"
+			$query = "INSERT INTO produtos (nome, descricao, categoria, fornecedor, armazenamento, cod_barras, qtde_min, codbarras_img) VALUES (@nome, @descricao, @categoria, @fornecedor, @armazenamento, @cod_barras, @quantia, @barcode)"
 			
 			try
 			{
@@ -16391,7 +16421,11 @@ $buttonCadastrarProduto_Click = {
 				$command.Parameters.AddWithValue("@fornecedor", $fornecedorCadProduto)
 				$command.Parameters.AddWithValue("@armazenamento", $localCadProduto)
 				$command.Parameters.AddWithValue("@cod_barras", $codBarrasCadProduto)
-				$command.Parameters.AddWithValue("@quantia", $precoMinCadProduto)
+				$command.Parameters.AddWithValue("@quantia", $qtdeMinCadProduto)
+				
+				# Adicionando a imagem como LongBlob
+				$paramBarcode = $command.Parameters.Add("@barcode", [MySql.Data.MySqlClient.MySqlDbType]::LongBlob)
+				$paramBarcode.Value = $imageBytes
 				
 				# Executando o comando
 				$command.ExecuteNonQuery()
