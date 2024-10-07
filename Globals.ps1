@@ -62,6 +62,19 @@ $global:barCodeCadastroProd = ''
 #Variáveis de filtro de produtos
 $global:tipoFiltro = ''
 $global:textoFiltro = ''
+$global:categoriaFiltro = ''
+$global:fornecedorFiltro = ''
+
+#Variáveis de geração de relatório
+$global:tipoRelatorio = ''
+$global:relTipoData = ''
+$global:relDataUnica = ''
+$global:relDataInicial = ''
+$global:relDataFinal = ''
+$global:relFornecedor = ''
+$global:usarFornecedor = ''
+$global:tipoVisualizacao = ''
+$global:localPDF = ''
 
 #Configurações de acesso ao banco de dados
 Add-Type -Path "C:\Program Files (x86)\MySQL\MySQL Connector NET 8.3.0\MySql.Data.dll"

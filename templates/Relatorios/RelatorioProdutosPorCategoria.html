@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relação de Estoque - Produtos por Categoria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding: 20px;
+        }
+        .header img {
+            max-width: 100px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .report-info {
+            margin: 20px 0;
+            text-align: right;
+            font-size: 14px;
+        }
+        .filters {
+            border: 1px solid #000;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .filters p {
+            margin: 5px 0;
+        }
+        .category-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        .barcode-img {
+            max-width: 150px;
+            max-height: 50px;
+        }
+        .footer {
+            text-align: right;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        /* Print Styles */
+        @media print {
+            body {
+                margin-top: 100px; /* Ajuste conforme necessário */
+            }
+            .header {
+                position: static;
+                top: 0;
+            }
+            table {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="https://i.imgur.com/ElpWNhq.png" alt="Logo">
+        <div class="title">Relação de Estoque - Produtos por Categoria</div>
+    </div>
+
+    <br>
+
+    <div id="content"><div class='filters'><p><strong>Data:</strong> 07/10/2024</p><p><strong>Hora:</strong> 00:17</p><p><strong>Emitido por:</strong> Teste Gerente</p></div><table><thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Armazenamento</th>
+                            <th>Qtde</th>
+                            <th>Qtde Min</th>
+                            <th>Código de Barras</th>
+                        </tr>
+                     </thead>
+                     <tbody><tr>
+                            <td>1</td>
+                            <td>Computadores</td>
+                            <td>Prateleira 1 - Seção A</td>
+                            <td>0</td>
+                            <td>5</td>
+                            <td></td>
+                         </tr><tr>
+                            <td>2</td>
+                            <td>Notebook Dell</td>
+                            <td>Prateleira 2 - Seção A</td>
+                            <td>3</td>
+                            <td>7</td>
+                            <td></td>
+                         </tr><tr>
+                            <td>3</td>
+                            <td>Mouse Gamer</td>
+                            <td>Prateleira 2 - Seção B</td>
+                            <td>10</td>
+                            <td>6</td>
+                            <td></td>
+                         </tr><tr>
+                            <td>4</td>
+                            <td>Mouse sem fio</td>
+                            <td>Prateleira 1 - Seção B</td>
+                            <td>1</td>
+                            <td>9</td>
+                            <td><img class='barcode-img' src='data:image/png;base64,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' alt='Código de Barras'></td>
+                         </tr><tr>
+                            <td>5</td>
+                            <td>Leitor de Cartão SD</td>
+                            <td>Prateleira 1 - Seção A</td>
+                            <td>8</td>
+                            <td>8</td>
+                            <td></td>
+                         </tr><tr>
+                            <td>6</td>
+                            <td>TESTE</td>
+                            <td>Prateleira 1 - Seção B</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td></td>
+                         </tr><tr>
+                            <td>8</td>
+                            <td>manteiga de cacau</td>
+                            <td>Prateleira 2 - Seção A</td>
+                            <td>2</td>
+                            <td>6</td>
+                            <td></td>
+                         </tr><tr>
+                            <td>10</td>
+                            <td>autoria</td>
+                            <td>Prateleira 1 - Seção A</td>
+                            <td>9</td>
+                            <td>4</td>
+                            <td></td>
+                         </tr><tr>
+                            <td>11</td>
+                            <td>teste2</td>
+                            <td>Prateleira 1 - Seção A</td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td></td>
+                         </tr><tr>
+                            <td>12</td>
+                            <td>autoria2</td>
+                            <td>Prateleira 1 - Seção A</td>
+                            <td>12</td>
+                            <td>5</td>
+                            <td></td>
+                         </tr><tr>
+                            <td>13</td>
+                            <td>teste logitech</td>
+                            <td>Prateleira 1 - Seção B</td>
+                            <td>0</td>
+                            <td></td>
+                            <td></td>
+                         </tr><tr>
+                            <td>14</td>
+                            <td>Teste Produto</td>
+                            <td>Prateleira 1 - Seção A</td>
+                            <td>0</td>
+                            <td></td>
+                            <td></td>
+                         </tr></tbody></table></div>
+
+    <div class="footer">
+        Relatório emitido por: STOCK GENIUS
+    </div>
+</body>
+</html>
+

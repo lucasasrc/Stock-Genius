@@ -27,6 +27,7 @@
     <Folder>Forms\Alertas\CRUDs\Cadastros</Folder>
     <Folder>Forms\Alertas\CRUDs\Produtos</Folder>
     <Folder>Forms\Dashboard</Folder>
+    <Folder>Forms\Alertas\Dashboard</Folder>
   </Folders>
   <Files>
     <File Build="0">Startup.pss</File>
@@ -101,6 +102,17 @@
     <File Build="0" ReferenceFunction="Show-FiltrosFornecedores_psf">Forms\Filtros\FiltrosFornecedores.psf</File>
     <File Build="0" ReferenceFunction="Show-FiltrosUsuarios_psf">Forms\Filtros\FiltrosUsuarios.psf</File>
     <File Build="0" ReferenceFunction="Show-Dashboard_psf">Forms\Dashboard\Dashboard.psf</File>
-    <File Build="0" ReferenceFunction="Show-DataIncorreta_psf">Forms\Alertas\DataIncorreta.psf</File>
+    <File Build="0" ReferenceFunction="Show-TipoRelatorioEntradaSaida_psf">Forms\Dashboard\TipoRelatorioEntradaSaida.psf</File>
+    <File Build="0" ReferenceFunction="Show-DataIncorreta_psf">Forms\Alertas\Dashboard\DataIncorreta.psf</File>
+    <File Build="0" ReferenceFunction="Show-ImprimirRelatorio_psf">Forms\Dashboard\ImprimirRelatorio.psf</File>
+    <File Build="0" ReferenceFunction="Show-GerarVisualizacao_psf">Forms\Alertas\Dashboard\GerarVisualizacao.psf</File>
+    <File Build="0" ReferenceFunction="Show-PDF-Salvo_psf">Forms\Alertas\Dashboard\PDF-Salvo.psf</File>
+    <File Build="0" ReferenceFunction="Show-TipoRelatorioCategoria_psf">Forms\Dashboard\TipoRelatorioCategoria.psf</File>
+    <File Build="0" ReferenceFunction="Show-TipoRelatorioFornecedor_psf">Forms\Dashboard\TipoRelatorioFornecedor.psf</File>
+    <File Build="0" ReferenceFunction="Show-VisualizarBaixoEstoque_psf">Forms\Dashboard\VisualizarBaixoEstoque.psf</File>
+    <File Build="0" ReferenceFunction="Show-VisualizarEstoqueZerado_psf">Forms\Dashboard\VisualizarEstoqueZerado.psf</File>
+    <File Build="0" ReferenceFunction="Show-VisualizarEstoqueOK_psf">Forms\Dashboard\VisualizarEstoqueOK.psf</File>
+    <File Build="0" ReferenceFunction="Show-VisualizarProdutosPorCategoria_psf">Forms\Dashboard\VisualizarProdutosPorCategoria.psf</File>
+    <File Build="0" ReferenceFunction="Show-VisualizarProdutosPorFornecedor_psf">Forms\Dashboard\VisualizarProdutosPorFornecedor.psf</File>
   </Files>
 </Project>
