@@ -76,6 +76,18 @@ $global:usarFornecedor = ''
 $global:tipoVisualizacao = ''
 $global:localPDF = ''
 
+#Variáveis de avaliação
+$global:notaVelocidade = 0
+$global:notaCuidado = 0
+$global:notaSuporte = 0
+$global:notaAvaliacao = 0
+$global:obsAvaliacao = ''
+
+#Variáveis globais de visualização de avaliação
+$idVisuAvaliacao = ''
+$global:dataAvaliacao = ''
+$global:notaAvaliacao = ''
+
 #Configurações de acesso ao banco de dados
 Add-Type -Path "C:\Program Files (x86)\MySQL\MySQL Connector NET 8.3.0\MySql.Data.dll"
 $parametros = "server=127.0.0.1;port=3306;user=root;password=Datadmin0!;database=stock_genius" #Banco Local

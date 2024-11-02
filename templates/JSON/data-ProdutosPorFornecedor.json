@@ -1,6 +1,6 @@
 ﻿{
-    "Hora":  "03:13",
-    "Data":  "07/10/2024",
+    "Hora":  "18:32",
+    "Data":  "22/10/2024",
     "Fornecedores":  [
                          {
                              "Fornecedor":  "LOGITECH DO BRASIL COMERCIO DE ACESSORIOS DE INFORMATICA LTDA.",
@@ -10,7 +10,7 @@
                                                   "QtdeMin":  null,
                                                   "Armazenamento":  "Prateleira 1 - Seção B",
                                                   "Categoria":  "Notebook",
-                                                  "Qtde":  0,
+                                                  "Qtde":  2,
                                                   "CodigoBarras":  "",
                                                   "Nome":  "teste logitech"
                                               },
@@ -19,9 +19,104 @@
                                                   "QtdeMin":  null,
                                                   "Armazenamento":  "Prateleira 1 - Seção A",
                                                   "Categoria":  "Teclado",
-                                                  "Qtde":  0,
+                                                  "Qtde":  1,
                                                   "CodigoBarras":  "",
                                                   "Nome":  "Teste Produto"
+                                              }
+                                          ]
+                         },
+                         {
+                             "Fornecedor":  "MICROSOFT DO BRASIL",
+                             "Produtos":  [
+                                              {
+                                                  "ID":  1,
+                                                  "QtdeMin":  5,
+                                                  "Armazenamento":  "Prateleira 1 - Seção A",
+                                                  "Categoria":  "Computador All in one",
+                                                  "Qtde":  0,
+                                                  "CodigoBarras":  "",
+                                                  "Nome":  "Computadores"
+                                              },
+                                              {
+                                                  "ID":  2,
+                                                  "QtdeMin":  7,
+                                                  "Armazenamento":  "Prateleira 2 - Seção A",
+                                                  "Categoria":  "Notebook",
+                                                  "Qtde":  3,
+                                                  "CodigoBarras":  "",
+                                                  "Nome":  "Notebook Dell"
+                                              },
+                                              {
+                                                  "ID":  3,
+                                                  "QtdeMin":  6,
+                                                  "Armazenamento":  "Prateleira 2 - Seção B",
+                                                  "Categoria":  "Mouse",
+                                                  "Qtde":  13,
+                                                  "CodigoBarras":  "",
+                                                  "Nome":  "Mouse Gamer"
+                                              },
+                                              {
+                                                  "ID":  4,
+                                                  "QtdeMin":  9,
+                                                  "Armazenamento":  "Prateleira 1 - Seção B",
+                                                  "Categoria":  "Mouse",
+                                                  "Qtde":  3,
+                                                  "CodigoBarras":  "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",
+                                                  "Nome":  "Mouse sem fio"
+                                              },
+                                              {
+                                                  "ID":  5,
+                                                  "QtdeMin":  8,
+                                                  "Armazenamento":  "Prateleira 1 - Seção A",
+                                                  "Categoria":  "Computador All in one",
+                                                  "Qtde":  8,
+                                                  "CodigoBarras":  "",
+                                                  "Nome":  "Leitor de Cartão SD"
+                                              },
+                                              {
+                                                  "ID":  6,
+                                                  "QtdeMin":  3,
+                                                  "Armazenamento":  "Prateleira 1 - Seção B",
+                                                  "Categoria":  "Fone de Ouvido P2",
+                                                  "Qtde":  0,
+                                                  "CodigoBarras":  "",
+                                                  "Nome":  "TESTE"
+                                              },
+                                              {
+                                                  "ID":  8,
+                                                  "QtdeMin":  6,
+                                                  "Armazenamento":  "Prateleira 2 - Seção A",
+                                                  "Categoria":  "Computador All in one",
+                                                  "Qtde":  2,
+                                                  "CodigoBarras":  "",
+                                                  "Nome":  "manteiga de cacau"
+                                              },
+                                              {
+                                                  "ID":  10,
+                                                  "QtdeMin":  4,
+                                                  "Armazenamento":  "Prateleira 1 - Seção A",
+                                                  "Categoria":  "Fone de Ouvido P2",
+                                                  "Qtde":  9,
+                                                  "CodigoBarras":  "",
+                                                  "Nome":  "autoria"
+                                              },
+                                              {
+                                                  "ID":  11,
+                                                  "QtdeMin":  3,
+                                                  "Armazenamento":  "Prateleira 1 - Seção A",
+                                                  "Categoria":  "Fone de Ouvido P2",
+                                                  "Qtde":  4,
+                                                  "CodigoBarras":  "",
+                                                  "Nome":  "teste2"
+                                              },
+                                              {
+                                                  "ID":  12,
+                                                  "QtdeMin":  5,
+                                                  "Armazenamento":  "Prateleira 1 - Seção A",
+                                                  "Categoria":  "Computador All in one",
+                                                  "Qtde":  12,
+                                                  "CodigoBarras":  "",
+                                                  "Nome":  "autoria2"
                                               }
                                           ]
                          }

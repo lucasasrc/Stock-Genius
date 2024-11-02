@@ -1,15 +1,64 @@
 ﻿{
-    "Hora":  "02:54",
-    "Data":  "07/10/2024",
+    "Hora":  "19:46",
+    "Data":  "08/10/2024",
     "Produtos":  [
                      {
                          "Produto":  "Mouse Gamer",
                          "Movimentos":  [
                                             {
-                                                "SaidaNF":  "321431",
+                                                "EntradaQuantia":  2,
+                                                "EntradaNF":  "52433",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "-----",
+                                                "SaidaQuantia":  "-----"
+                                            },
+                                            {
+                                                "EntradaQuantia":  "-----",
+                                                "EntradaNF":  "-----",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "33513",
+                                                "SaidaQuantia":  1
+                                            },
+                                            {
+                                                "EntradaQuantia":  3,
+                                                "EntradaNF":  "65324134",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "-----",
+                                                "SaidaQuantia":  "-----"
+                                            },
+                                            {
+                                                "EntradaQuantia":  "-----",
+                                                "EntradaNF":  "-----",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "432",
+                                                "SaidaQuantia":  1
+                                            },
+                                            {
+                                                "EntradaQuantia":  "-----",
+                                                "EntradaNF":  "-----",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "64534",
+                                                "SaidaQuantia":  2
+                                            },
+                                            {
+                                                "EntradaQuantia":  5,
+                                                "EntradaNF":  "43421",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "-----",
+                                                "SaidaQuantia":  "-----"
+                                            },
+                                            {
+                                                "EntradaQuantia":  "-----",
+                                                "EntradaNF":  "-----",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "65341",
+                                                "SaidaQuantia":  1
+                                            },
+                                            {
+                                                "EntradaQuantia":  "-----",
+                                                "EntradaNF":  "-----",
                                                 "Data":  "27/08/2024",
-                                                "EntradaQuantia":  0,
-                                                "EntradaNF":  "",
+                                                "SaidaNF":  "321431",
                                                 "SaidaQuantia":  1
                                             }
                                         ],
@@ -19,11 +68,53 @@
                          "Produto":  "Mouse sem fio",
                          "Movimentos":  [
                                             {
-                                                "SaidaNF":  "",
-                                                "Data":  "27/08/2024",
+                                                "EntradaQuantia":  3,
+                                                "EntradaNF":  "123213",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "-----",
+                                                "SaidaQuantia":  "-----"
+                                            },
+                                            {
+                                                "EntradaQuantia":  "-----",
+                                                "EntradaNF":  "-----",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "5241",
+                                                "SaidaQuantia":  1
+                                            },
+                                            {
+                                                "EntradaQuantia":  "-----",
+                                                "EntradaNF":  "-----",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "12",
+                                                "SaidaQuantia":  1
+                                            },
+                                            {
+                                                "EntradaQuantia":  15,
+                                                "EntradaNF":  "354431",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "-----",
+                                                "SaidaQuantia":  "-----"
+                                            },
+                                            {
+                                                "EntradaQuantia":  1,
+                                                "EntradaNF":  "3269596",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "-----",
+                                                "SaidaQuantia":  "-----"
+                                            },
+                                            {
+                                                "EntradaQuantia":  "-----",
+                                                "EntradaNF":  "-----",
+                                                "Data":  "20/08/2024",
+                                                "SaidaNF":  "159841562",
+                                                "SaidaQuantia":  13
+                                            },
+                                            {
                                                 "EntradaQuantia":  7,
                                                 "EntradaNF":  "123456",
-                                                "SaidaQuantia":  0
+                                                "Data":  "27/08/2024",
+                                                "SaidaNF":  "-----",
+                                                "SaidaQuantia":  "-----"
                                             }
                                         ],
                          "Fornecedor":  "MICROSOFT DO BRASIL"
