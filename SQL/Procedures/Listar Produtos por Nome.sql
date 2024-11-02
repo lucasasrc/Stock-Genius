@@ -1,14 +1,15 @@
 DELIMITER //
 
-CREATE PROCEDURE ListarProdutosEstoqueBaixo()
+CREATE PROCEDURE ListarProdutosPorNome(IN nomeBusca VARCHAR(255))
 BEGIN
     SELECT 
         p.ID, 
+        p.quantidade, 
         p.nome, 
+        p.descricao, 
         p.categoria, 
         f.RazaoSocial AS fornecedor, 
-        p.quantidade, 
-        p.qtde_min
+        p.armazenamento 
     FROM 
         produtos p
     LEFT JOIN 
@@ -16,7 +17,7 @@ BEGIN
     LEFT JOIN 
         fornecedor f ON pf.fornecedor_id = f.ID
     WHERE 
-        p.quantidade <= p.qtde_min;
+        p.nome LIKE CONCAT('%', nomeBusca, '%');
 END //
 
 DELIMITER ;

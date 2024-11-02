@@ -101,7 +101,6 @@
     <File Build="0" ReferenceFunction="Show-HistoricoControleEstoque_psf">Forms\Controle\HistoricoControleEstoque.psf</File>
     <File Build="0" ReferenceFunction="Show-FiltrosFornecedores_psf">Forms\Filtros\FiltrosFornecedores.psf</File>
     <File Build="0" ReferenceFunction="Show-FiltrosUsuarios_psf">Forms\Filtros\FiltrosUsuarios.psf</File>
-    <File Build="0" ReferenceFunction="Show-Dashboard_psf">Forms\Dashboard\Dashboard.psf</File>
     <File Build="0" ReferenceFunction="Show-TipoRelatorioEntradaSaida_psf">Forms\Dashboard\TipoRelatorioEntradaSaida.psf</File>
     <File Build="0" ReferenceFunction="Show-DataIncorreta_psf">Forms\Alertas\Dashboard\DataIncorreta.psf</File>
     <File Build="0" ReferenceFunction="Show-ImprimirRelatorio_psf">Forms\Dashboard\ImprimirRelatorio.psf</File>
@@ -114,5 +113,12 @@
     <File Build="0" ReferenceFunction="Show-VisualizarEstoqueOK_psf">Forms\Dashboard\VisualizarEstoqueOK.psf</File>
     <File Build="0" ReferenceFunction="Show-VisualizarProdutosPorCategoria_psf">Forms\Dashboard\VisualizarProdutosPorCategoria.psf</File>
     <File Build="0" ReferenceFunction="Show-VisualizarProdutosPorFornecedor_psf">Forms\Dashboard\VisualizarProdutosPorFornecedor.psf</File>
+    <File Build="0" ReferenceFunction="Show-AvaliarFornecedor_psf">Forms\Controle\AvaliarFornecedor.psf</File>
+    <File Build="0" ReferenceFunction="Show-ConfirmarAvaliacao_psf">Forms\Alertas\Dashboard\ConfirmarAvaliacao.psf</File>
+    <File Build="0" ReferenceFunction="Show-Dashboard_psf">Forms\Dashboard\Dashboard.psf</File>
+    <File Build="0" ReferenceFunction="Show-AvaliacaoRealizada_psf">Forms\Alertas\CRUDs\Controle\AvaliacaoRealizada.psf</File>
+    <File Build="0" ReferenceFunction="Show-VisualizarAvaliacao_psf">Forms\Dashboard\VisualizarAvaliacao.psf</File>
+    <File Build="0" ReferenceFunction="Show-OrcamentoSolicitado_psf">Forms\Alertas\CRUDs\Controle\OrcamentoSolicitado.psf</File>
+    <File Build="0" ReferenceFunction="Show-SolicitarOrcamento_psf">Forms\Alertas\CRUDs\Controle\SolicitarOrcamento.psf</File>
   </Files>
 </Project>

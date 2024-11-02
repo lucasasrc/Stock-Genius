@@ -4,19 +4,19 @@
   <OpenFolders>
     <Folder>Forms</Folder>
     <Folder>Forms\Cadastros</Folder>
-    <Folder>Forms\Paineis</Folder>
     <Folder>Forms\Login</Folder>
-    <Folder>Forms\Filtros</Folder>
     <Folder>Forms\Alertas</Folder>
+    <Folder>Forms\Alertas\CRUDs</Folder>
+    <Folder>Forms\Controle</Folder>
+    <Folder>Forms\Alertas\CRUDs\Controle</Folder>
     <Folder>Forms\Dashboard</Folder>
-    <Folder>Forms\Alertas\Dashboard</Folder>
   </OpenFolders>
   <OpenFiles>
     <File>Startup.pss</File>
     <File>Globals.ps1</File>
-    <File>Forms\Paineis\PainelGerente.psf</File>
     <File>Forms\Dashboard\Dashboard.psf</File>
-    <File>Forms\Dashboard\VisualizarProdutosPorCategoria.psf</File>
-    <File>Forms\Dashboard\VisualizarProdutosPorFornecedor.psf</File>
+    <File>Forms\Controle\ControlePrincipal.psf</File>
+    <File>Forms\Controle\EntradaProdutos.psf</File>
+    <File>Forms\Controle\SaidaProdutos.psf</File>
   </OpenFiles>
 </ProjectState>
