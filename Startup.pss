@@ -63,6 +63,7 @@ function Main {
 		#Show-ListarFornecedores_psf
 		#Show-AvaliarFornecedor_psf
 		#Show-CadastroFornecedor_psf
+		#Show-Cadastrar-MFA_psf
 	}
 	
 	

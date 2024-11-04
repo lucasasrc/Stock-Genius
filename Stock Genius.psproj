@@ -34,7 +34,7 @@
     <File Build="0" ReferenceFunction="Show-MainForm_psf">MainForm.psf</File>
     <File Build="0" Shared="True" ReferenceFunction="Invoke-Global_ps1">Globals.ps1</File>
     <File Build="0" ReferenceFunction="Show-PainelAdmin_psf">Forms\Paineis\PainelAdmin.psf</File>
-    <File Build="0" ReferenceFunction="Show-MFA_psf">Forms\Login\MFA.psf</File>
+    <File Build="0" ReferenceFunction="Show-Validar-MFA_psf">Forms\Login\Validar-MFA.psf</File>
     <File Build="2">img\genius.ico</File>
     <File Build="2">img\genius.png</File>
     <File Build="2">img\stock genius big.png</File>
@@ -120,5 +120,13 @@
     <File Build="0" ReferenceFunction="Show-VisualizarAvaliacao_psf">Forms\Dashboard\VisualizarAvaliacao.psf</File>
     <File Build="0" ReferenceFunction="Show-OrcamentoSolicitado_psf">Forms\Alertas\CRUDs\Controle\OrcamentoSolicitado.psf</File>
     <File Build="0" ReferenceFunction="Show-SolicitarOrcamento_psf">Forms\Alertas\CRUDs\Controle\SolicitarOrcamento.psf</File>
+    <File Build="0" ReferenceFunction="Show-Cadastrar-MFA_psf">Forms\Login\Cadastrar-MFA.psf</File>
+    <File Build="0" ReferenceFunction="Show-TipoMFA_psf">Forms\Login\TipoMFA.psf</File>
+    <File Build="0" ReferenceFunction="Show-ConfirmarEmail_psf">Forms\Login\ConfirmarEmail.psf</File>
+    <File Build="0" ReferenceFunction="Show-MFA-Alterado_psf">Forms\Login\MFA-Alterado.psf</File>
+    <File Build="0" ReferenceFunction="Show-ConfirmarMobile_psf">Forms\Login\ConfirmarMobile.psf</File>
+    <File Build="0" ReferenceFunction="Show-MFA-AlteradoMobile_psf">Forms\Login\MFA-AlteradoMobile.psf</File>
+    <File Build="0" ReferenceFunction="Show-Cadastrar-MFAEmail_psf">Forms\Login\Cadastrar-MFAEmail.psf</File>
+    <File Build="0" ReferenceFunction="Show-Validar-MFAMobile_psf">Forms\Login\Validar-MFAMobile.psf</File>
   </Files>
 </Project>

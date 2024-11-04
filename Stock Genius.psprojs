@@ -3,20 +3,17 @@
   <FileID>5dba09ef-15b3-4b4c-9d5b-81c53a763c28</FileID>
   <OpenFolders>
     <Folder>Forms</Folder>
-    <Folder>Forms\Cadastros</Folder>
+    <Folder>Forms\Paineis</Folder>
     <Folder>Forms\Login</Folder>
-    <Folder>Forms\Alertas</Folder>
-    <Folder>Forms\Alertas\CRUDs</Folder>
     <Folder>Forms\Controle</Folder>
-    <Folder>Forms\Alertas\CRUDs\Controle</Folder>
     <Folder>Forms\Dashboard</Folder>
   </OpenFolders>
   <OpenFiles>
     <File>Startup.pss</File>
     <File>Globals.ps1</File>
-    <File>Forms\Dashboard\Dashboard.psf</File>
-    <File>Forms\Controle\ControlePrincipal.psf</File>
-    <File>Forms\Controle\EntradaProdutos.psf</File>
-    <File>Forms\Controle\SaidaProdutos.psf</File>
+    <File>MainForm.psf</File>
+    <File>Forms\Login\Validar-MFAMobile.psf</File>
+    <File>Forms\Login\Cadastrar-MFA.psf</File>
+    <File>Forms\Login\TipoMFA.psf</File>
   </OpenFiles>
 </ProjectState>
