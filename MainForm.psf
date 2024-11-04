@@ -15350,56 +15350,120 @@ $buttonLogin_Click={
 	{
 		if ($username -eq $usuario -and $senhaHash -eq $senha)
 		{
-			# Substitui as variáveis no template pelo código gerado
-			$corpoTexto = $templateHtml -replace '\$codigoMFA', $generatedCode
-			$corpoTexto = $corpoTexto -replace '\$usuario', $usuario
+			$connection.Open()
 			
-			Write-Host "Usuário é: $usuario"
-			Write-Host "Senha é: $senha"
-			Write-Host "E-mail é: $emailDestinatario"
-			Write-Host "Tipo é: $tipo"
+			Write-Host "Usuário para MFA: $usuario"
 			
-			#Define o assunto e envia o e-mail
-			$assunto = "[AVISO] MFA para acesso ao sistema Stock Genius"
-			Enviar-Email -CorpoTexto $corpoTexto `
-						 -Assunto $assunto `
-						 -EmailRemetente $emailRemetente `
-						 -EmailDestinatario $emailDestinatario `
-						 -SmtpHost $smtpHost `
-						 -Porta $porta `
-						 -UsuarioSmtp $usuarioSmtp `
-						 -SenhaSmtp $senhaSmtp
+			$command = New-Object MySql.Data.MySqlClient.MySqlCommand("SELECT tipo_mfa FROM view_usuario_mfa WHERE usuario = @usuario", $connection)
+			$command.Parameters.AddWithValue("@usuario", $usuario)
+			$reader = $command.ExecuteReader()
 			
-			# Mostra o número gerado
-			Write-Host "Seu código gerado foi enviado ao seu e-mail"
+			# Variáveis para armazenar os resultados
+			$tipo_mfa = $null
 			
-			# Define o tempo limite em segundos
-			$timeout = 300
-			$timeoutGlobal = $timeout
-			
-			# Captura o momento atual
-			$startTime = Get-Date
-			
-			# Aguarda a entrada do usuário até o tempo limite ser atingido
-			Write-Host "Digite o código dentro de $timeout segundos:"
-			#$userInput = $null
-			do
+			if ($reader.Read())
 			{
-				#$userInput = Read-Host "Insira o código MFA enviado ao seu e-mail"
-				$currentTime = Get-Date
-				$mfaCode = $generatedCode
-				$resultado = Show-MFA_psf
-				if ($resultado -eq "OK")
+				# Atribui os valores das colunas às variáveis
+				$tipo_mfa = $reader["tipo_mfa"]
+			}
+			
+			$reader.Close()
+			$connection.Close()
+			
+			Write-Host "O tipo de MFA é: $tipo_mfa"
+			
+			if ($tipo_mfa -eq 1)
+			{
+				# Substitui as variáveis no template pelo código gerado
+				$corpoTexto = $templateHtml -replace '\$codigoMFA', $generatedCode
+				$corpoTexto = $corpoTexto -replace '\$usuario', $usuario
+				
+				Write-Host "Usuário é: $usuario"
+				Write-Host "Senha é: $senha"
+				Write-Host "E-mail é: $emailDestinatario"
+				Write-Host "Tipo é: $tipo"
+				
+				#Define o assunto e envia o e-mail
+				$assunto = "[AVISO] MFA para acesso ao sistema Stock Genius"
+				Enviar-Email -CorpoTexto $corpoTexto `
+							 -Assunto $assunto `
+							 -EmailRemetente $emailRemetente `
+							 -EmailDestinatario $emailDestinatario `
+							 -SmtpHost $smtpHost `
+							 -Porta $porta `
+							 -UsuarioSmtp $usuarioSmtp `
+							 -SenhaSmtp $senhaSmtp
+				
+				# Mostra o número gerado
+				Write-Host "Seu código gerado foi enviado ao seu e-mail"
+				
+				# Define o tempo limite em segundos
+				$timeout = 300
+				$timeoutGlobal = $timeout
+				
+				# Captura o momento atual
+				$startTime = Get-Date
+				
+				# Aguarda a entrada do usuário até o tempo limite ser atingido
+				Write-Host "Digite o código dentro de $timeout segundos:"
+				#$userInput = $null
+				do
 				{
-					Write-Host "Código MFA inserido: $mfaCode"
+					#$userInput = Read-Host "Insira o código MFA enviado ao seu e-mail"
+					$currentTime = Get-Date
+					$mfaCode = $generatedCode
+					$resultado = Show-Validar-MFA_psf
+					if ($resultado -eq "OK")
+					{
+						Write-Host "Código MFA inserido: $mfaCode"
+					}
+					$elapsedTime = $currentTime - $startTime
+					if ($resultado -eq "OK")
+					{
+						Write-Host "Código válido."
+						$usuarioAutenticado = $usuario
+						$nomeUsuario = $usuario
+						Show-LoginSucesso_psf
+						$usuarioMFA = $nomeUsuario
+						$MainForm.Close()
+						$MainForm.Dispose()
+						if ($tipo -eq 1)
+						{
+							Show-PainelAdmin_psf
+						}
+						elseif ($tipo -eq 2)
+						{
+							Show-PainelOperador_psf
+						}
+						elseif ($tipo -eq 3)
+						{
+							Show-PainelGerente_psf
+						}
+						
+						break
+					}
+					elseif ($resultado -eq "Cancel")
+					{
+						break
+					}
+					else
+					{
+						Write-Host "Código incorreto. Tente novamente."
+					}
 				}
-				$elapsedTime = $currentTime - $startTime
+				while ($true)
+			}
+			elseif ($tipo_mfa -eq 2)
+			{
+				$resultado = Show-Validar-MFAMobile_psf
+				
 				if ($resultado -eq "OK")
 				{
 					Write-Host "Código válido."
 					$usuarioAutenticado = $usuario
 					$nomeUsuario = $usuario
 					Show-LoginSucesso_psf
+					$usuarioMFA = $nomeUsuario
 					$MainForm.Close()
 					$MainForm.Dispose()
 					if ($tipo -eq 1)
@@ -15426,7 +15490,6 @@ $buttonLogin_Click={
 					Write-Host "Código incorreto. Tente novamente."
 				}
 			}
-			while ($true)
 		}
 		else
 		{
