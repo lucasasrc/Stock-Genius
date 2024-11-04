@@ -4,16 +4,10 @@
   <OpenFolders>
     <Folder>Forms</Folder>
     <Folder>Forms\Paineis</Folder>
-    <Folder>Forms\Login</Folder>
-    <Folder>Forms\Controle</Folder>
-    <Folder>Forms\Dashboard</Folder>
   </OpenFolders>
   <OpenFiles>
     <File>Startup.pss</File>
     <File>Globals.ps1</File>
-    <File>MainForm.psf</File>
-    <File>Forms\Login\Validar-MFAMobile.psf</File>
-    <File>Forms\Login\Cadastrar-MFA.psf</File>
-    <File>Forms\Login\TipoMFA.psf</File>
+    <File>Forms\Paineis\PainelAdmin.psf</File>
   </OpenFiles>
 </ProjectState>

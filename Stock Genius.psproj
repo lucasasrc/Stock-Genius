@@ -128,5 +128,6 @@
     <File Build="0" ReferenceFunction="Show-MFA-AlteradoMobile_psf">Forms\Login\MFA-AlteradoMobile.psf</File>
     <File Build="0" ReferenceFunction="Show-Cadastrar-MFAEmail_psf">Forms\Login\Cadastrar-MFAEmail.psf</File>
     <File Build="0" ReferenceFunction="Show-Validar-MFAMobile_psf">Forms\Login\Validar-MFAMobile.psf</File>
+    <File Build="0" ReferenceFunction="Show-BaixarMFA_psf">Forms\Login\BaixarMFA.psf</File>
   </Files>
 </Project>
